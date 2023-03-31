@@ -1,0 +1,8 @@
+version: "3"
+services:
+  web:
+   image: angiemanzano/ejer3
+   ports:
+   - 9091:5000/tcp
+  database:
+   image: redis
